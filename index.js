@@ -15,6 +15,7 @@ var helperUtils = {
 }
 
 app
+	.use(bodyParser.json());
 	.use(bodyParser.urlencoded({extended: true}))
 	.use(express.static(path.join(__dirname, 'public')))
 	.set('views', path.join(__dirname, 'views'))
