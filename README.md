@@ -4,7 +4,7 @@ Simple sum web app in node.js because mm why not, eh? Posts to /test route given
 
 View demo with form here (https://rocky-atoll-30961.herokuapp.com/).
 
-#Use case
+# Use case
 
 Request (POST) 
 
